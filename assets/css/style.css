@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family:kum ;
+    src: url("../fonts/KumbhSans-VariableFont_wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing:content-box;
+} 
+.top{
+       position: absolute; 
+       margin: -40rem;
+       z-index: -1;
+    }
+    .bot{
+        position: absolute;
+        z-index: -1;
+        height: 40rem;
+        width: 40rem;
+        margin:  20rem -20rem -20rem 35rem;
+    }
+
+body{
+display: flex;
+font-family: kum;
+justify-content: center;
+text-align: center;
+height: 100vh;
+align-items: center;
+background-color: hsl(185, 75%, 39%);
+}
+h1{
+    color: hsl(229, 23%, 23%);
+}
+h2{
+    color: hsl(0, 0%, 59%);
+}
+h3{
+    color: hsl(0, 0%, 59%);
+    margin: 1rem;
+}
+.vic{
+    border-radius: 100% ;
+    width: 8rem;
+    height: 8rem;
+    border:  .4rem solid white ;
+    margin-top: -4rem;
+}
+.bilder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.haupt{
+    border-radius: 1rem;
+    height: fit-content;
+    background-color: white;
+}
+.hed{
+    border-radius: 1rem 1rem 0 0;
+    height: 11rem;
+    width: 25rem;
+}
+.header{
+    display: inline-flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    border-top: solid .1rem hsl(227, 10%, 46%);
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
